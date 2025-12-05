@@ -286,9 +286,9 @@ if ($conn) {
         </summary>
         <ul class="ml-6 mt-2 space-y-1 text-[15px]">
           <li><a href="physical_assessment.php" class="block hover:bg-gray-200 rounded px-1">↳ Student Physical Assessment Form</a></li>
-          <li><a href="Health Service_report.php" class="block hover:bg-gray-200 rounded px-1">↳ Health Service Utilization Report</a></li>
+          <li><a href="health_service_report.php" class="block hover:bg-gray-200 rounded px-1">↳ Health Service Utilization Report</a></li>
           <li><a href="first_aid.php" class="block hover:bg-gray-200 rounded px-1">↳ First Aid Procedure</a></li>
-          <li><a href="Emergency Plan.php" class="block hover:bg-gray-200 rounded px-1">↳ Emergency Respond Plan</a></li>
+          <li><a href="emergency_plan.html" class="block hover:bg-gray-200 rounded px-1">↳ Emergency Respond Plan</a></li>
         </ul>
       </details>
 
@@ -1583,4 +1583,5 @@ window.onload = function() {
 };
 </script>
 </body>
+
 </html>
