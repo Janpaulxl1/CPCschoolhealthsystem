@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'nurse') {
-  header("Location: login.php");
+  header("Location: index.php");
   exit;
 }
 header("Cache-Control: no-cache, must-revalidate");
@@ -1585,3 +1585,4 @@ window.onload = function() {
 </body>
 
 </html>
+
